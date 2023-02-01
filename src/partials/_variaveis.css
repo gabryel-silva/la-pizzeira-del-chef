@@ -1,0 +1,14 @@
+:root{
+    /*cores*/
+    --cor-1: #E4E2DA;
+    --cor-2: #F9F6EA;
+    --cor-3: #FF3E3E;
+    --cor-4: #FBC403;
+    --cor-5: #737373;
+    --cor-6: #B3411D;
+    --cor-7: #5F3527;
+    /*degrade*/
+    --degrade: linear-gradient(180deg, #FBC403 0%, #FF3E3E 94.46%);
+    /*font family*/
+    --poppins: 'Poppins', sans-serif !important;
+}
