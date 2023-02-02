@@ -1,14 +1,14 @@
 import './_cabecalho.css'
 import logo from'../../img/logo/logo-pizzaria.svg'
-import BotaoDropdown from '../BotaoDropdown'
+import MenuDropdown from '../MenuDropdown'
 
-function Header(props) {
+function Cabecalho(props) {
     return (
         <>
             <header className='cabecalho'>
-                <img src={logo}/>
+                <img src={logo} className='logo'/>
                 <div className='menu'>
-                    <BotaoDropdown/>
+                    <MenuDropdown/>
                     <a href='#'>Cardápio</a>
                     <a href='#'>Sobre a pizzaria</a>
                 </div>
@@ -17,4 +17,4 @@ function Header(props) {
     )
 }
 
-export default Header
+export default Cabecalho

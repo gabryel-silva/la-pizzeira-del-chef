@@ -1,16 +1,14 @@
 import './App.css';
 import './partials/_variaveis.css';
 import './partials/_reset.css';
-import Header from './components/Cabecalho';
-import ListaSuspensa from './components/ListaSuspensa';
+import Cabecalho from './components/Cabecalho';
+import Banner from './components/Banner';
 
 function App() {
-  const onClick = () => setIsActive(!isActive)
-
   return (
     <div className="App">
-      <Header/>
-      <ListaSuspensa/>
+      <Cabecalho/>
+      <Banner/>
     </div>
   );
 }
