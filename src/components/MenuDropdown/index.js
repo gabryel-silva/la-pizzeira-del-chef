@@ -17,13 +17,14 @@ function MenuDropdown() {
                     className="nossos-servicos">Nossos Serviços
                     <img src={arrowDown} alt='Arrow down' />
                 </button>
-                <nav ref={dropDownRef} className={`nav ${isActive ? "active" : "inactive"}`}>
-                    <ul>
-                        <li><a href='#'>Delivery<img src={deliveryIcon}/></a></li>
-                        <li><a href='#'>Rodízio<img src={rodizioIcon}/></a></li>
-                        <li><a href='#'>Reservas<img src={reservasIcon}/></a></li>
-                    </ul>
-                </nav>
+                
+                    <nav ref={dropDownRef} className={`nav ${isActive ? "active" : "inactive"}`}>
+                        <ul>
+                            <li><a href='#'>Delivery<img src={deliveryIcon} /></a></li>
+                            <li><a href='#'>Rodízio<img src={rodizioIcon} /></a></li>
+                            <li><a href='#'>Reservas<img src={reservasIcon} /></a></li>
+                        </ul>
+                    </nav>
             </div>
         </>
     )

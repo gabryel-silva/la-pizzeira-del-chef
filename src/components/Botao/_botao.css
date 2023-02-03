@@ -1,0 +1,10 @@
+button{
+    padding: 1rem 2rem;
+    background-color: var(--cor-3);
+    color: var(--cor-2);
+    font-size: 18px;
+    font-weight: 700;
+
+    border: none;
+    border-radius: .5rem;
+}

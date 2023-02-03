@@ -1,4 +1,37 @@
 .container-banner{
     height: 749px;
     width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 5%;
+    width: 35%;
+
+    height: 80%;
+    margin-top: 5%;
+}
+
+.container-conteudo > img{
+    width: 300px;
+}
+
+.container-conteudo h1{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 800;
+    color: var(--cor-6);
+}
+
+.container-conteudo p{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cor-5);
 }
