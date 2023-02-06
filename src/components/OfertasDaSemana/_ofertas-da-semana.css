@@ -1,0 +1,72 @@
+.ofertas-da-semana > h2{
+    color: var(--cor-5);
+    margin: 0 0 1rem 5%;
+}
+
+.card-pizza{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cor-2);
+}
+
+.container-img-pizza{
+    width: 50vw;
+    height: 100%;
+}
+
+.container-img-pizza img{
+    width: 100%;
+}
+
+.container-info-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.container-info-card > h2{
+    color: var(--cor-6);
+    margin-left: 5rem;
+}
+
+.container-info-card p{
+    margin-left: 5rem;
+    margin-top: 4rem;
+    width: 80%;
+}
+
+.container-reacoes{
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+
+.container-reacoes img{
+    margin-right: 2rem;
+}
+
+.container-preco{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: var(--cor-3);
+}
+
+.container-preco h2{
+    text-align: end;
+    color: var(--cor-2);
+    background-color: var(--cor-3);
+    padding: .5rem 2rem;
+    border-radius: 10px 10px 0 0;
+    font-weight: 600;
+}
+
+.container-preco span{
+    font-size: 40px;
+}

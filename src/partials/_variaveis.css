@@ -11,4 +11,22 @@
     --degrade: linear-gradient(180deg, #FBC403 0%, #FF3E3E 94.46%);
     /*font family*/
     --poppins: 'Poppins', sans-serif !important;
+    --playfair: 'Playfair Display', serif !important;
+}
+
+.titulo-section{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.titulo-card{
+    font-size: 64px;
+    font-weight: 400;
+    font-family: var(--playfair);
+}
+
+.texto-padrao{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cor-5);
 }

@@ -11,8 +11,7 @@ function Banner(){
                 <h1>Saboreie a autenticidade da verdadeira pizza italiana</h1>
                 <p>Venha experimentar nossas deliciosas 
                     pizzas feitas com ingredientes frescos 
-                    e receita autêntica.
-                </p>
+                    e receita autêntica.</p>
                 <Botao/>
             </div>
             <img src={banner}/>
